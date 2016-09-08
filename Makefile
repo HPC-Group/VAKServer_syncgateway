@@ -1,4 +1,4 @@
-IMAGE=visanalyticskit/couchbase-server
+IMAGE=visanalyticskit/vakserver_syncgateway
 TAG=1.5.0
 CONTAINER=vak_sg
 
