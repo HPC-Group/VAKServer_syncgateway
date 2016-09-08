@@ -1,0 +1,11 @@
+{
+  "interface":":4984",
+  "adminInterface":":4985",
+  "log": ["CRUD", "CRUD+", "HTTP", "HTTP+", "Access", "Cache", "Shadow", "Shadow+", "Changes", "Changes+"],
+   "databases":{
+      "sync_gateway":{
+         "server":"walrus:/opt/sync_gateway/data",
+         "sync":`function(doc) {channel(doc.channels);}`
+      }
+   }
+}

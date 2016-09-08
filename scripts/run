@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec /opt/sync_gateway/bin/sync_gateway $SYNC_CONFIG_FILE
